@@ -1,0 +1,18 @@
+@import "./../../utils/constants/colors";
+
+.input-field {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 16px;
+  border: 1px solid $white;
+  box-shadow: 0px 0px 6px $grey;
+  padding-left: 0.5rem;
+  &:focus {
+    outline: none;
+    box-shadow: 0px 0px 6px inset $grey;
+  }
+}
+.label {
+  padding-left: 1.5rem;
+  padding-bottom: 0.5rem;
+}
