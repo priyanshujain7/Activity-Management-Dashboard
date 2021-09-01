@@ -6,9 +6,8 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
-      {/* <Login></Login> */}
-      <Button background="light"></Button>
-      <Input label="Email" id="email"></Input>
+      <Login></Login>
+      {/* <Button background="dark"></Button> */}
     </div>
   );
 }
