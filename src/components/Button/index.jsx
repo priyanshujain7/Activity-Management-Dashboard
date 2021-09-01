@@ -5,9 +5,7 @@ const Button = ({ background = "dark", text = "Submit" }) => {
   return (
     <div className="btn-comp m-3">
       <button
-        className={`btn ${
-          background === "dark" ? "header-bg" : "body-bg"
-        } fs-16 text-bold`}
+        className={`btn ${background === "dark" ? "header-bg" : "body-bg"}`}
       >
         {text}
       </button>
