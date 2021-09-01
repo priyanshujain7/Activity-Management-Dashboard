@@ -1,0 +1,9 @@
+@import "./utils/constants/common";
+@import "./utils/constants/colors";
+
+html,
+body,
+#root,
+.App {
+  min-height: 100vh;
+}
