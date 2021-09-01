@@ -1,0 +1,15 @@
+@import "./../../utils/constants/colors";
+.btn-comp {
+  .btn {
+    width: 12rem;
+    height: 3rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 6px $jet;
+  }
+}
+.fs-16 {
+  font-size: 16px;
+}
+.text-bold {
+  font-weight: bold;
+}
