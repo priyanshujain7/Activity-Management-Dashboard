@@ -9,6 +9,9 @@
     &:hover {
       box-shadow: 0px 0px 6px $jet;
     }
+    &:active {
+      transform: scale(0.98);
+    }
   }
 }
 .fs-16 {
