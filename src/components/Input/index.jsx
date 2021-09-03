@@ -1,6 +1,12 @@
 import React from "react";
 import "./styles.scss";
-const Input = ({ label = "", id = "", type = "text", placeholder = "" }) => {
+const Input = ({
+  label = "",
+  id = "",
+  type = "text",
+  placeholder = "",
+  change = () => {},
+}) => {
   return (
     <div className="d-grid-left">
       <div className="label">
@@ -11,6 +17,7 @@ const Input = ({ label = "", id = "", type = "text", placeholder = "" }) => {
         className="input-field"
         type={type}
         placeholder={placeholder}
+        onChange={(e) => change(e, id)}
       />
     </div>
   );
