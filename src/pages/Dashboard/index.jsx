@@ -5,7 +5,7 @@ import LeftMenu from "../../components/LeftMenu";
 const Dashboard = () => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <LeftMenu />
     </>
   );
