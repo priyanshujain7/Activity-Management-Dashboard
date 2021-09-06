@@ -21,40 +21,50 @@
       white-space: nowrap;
     }
   }
-  .link-prop {
-    text-decoration: none;
+  .link-main {
+    overflow-y: auto;
+    .link-prop {
+      text-decoration: none;
 
-    .label-group {
-      display: flex;
+      .label-group {
+        display: flex;
+        align-items: center;
 
-      img {
-        background-color: $white;
-        height: 30px;
-        width: 30px;
-        margin: 1rem;
-      }
+        img {
+          background-color: $white;
+          height: 30px;
+          width: 30px;
+          margin: 1rem;
+        }
 
-      .label-text {
-        display: none;
-        color: $platinum;
-        margin: 1rem;
-        white-space: nowrap;
-      }
+        .label-text {
+          display: none;
+          color: $platinum;
+          margin: 1rem;
+          // white-space: nowrap;
+        }
 
-      &:hover {
-        background-color: $grey;
+        &:hover {
+          background-color: $grey;
+        }
       }
     }
   }
-
   &:hover {
     width: 250px;
 
-    .link-prop .label-group .label-text {
+    .link-main .link-prop .label-group .label-text {
       display: block;
     }
     .btn-left-menu .add-text {
       display: block;
+    }
+  }
+}
+
+.m-left-menu {
+  .m-link-prop {
+    .m-label-group {
     }
   }
 }
