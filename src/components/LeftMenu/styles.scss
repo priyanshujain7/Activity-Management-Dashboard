@@ -12,6 +12,7 @@
 
     .label-group {
       display: flex;
+      align-items: center;
 
       img {
         background-color: $white;
@@ -24,7 +25,7 @@
         display: none;
         color: $platinum;
         margin: 1rem;
-        white-space: nowrap;
+        // white-space: nowrap;
       }
 
       &:hover {
@@ -38,6 +39,13 @@
 
     .link-prop .label-group .label-text {
       display: block;
+    }
+  }
+}
+
+.m-left-menu {
+  .m-link-prop {
+    .m-label-group {
     }
   }
 }
