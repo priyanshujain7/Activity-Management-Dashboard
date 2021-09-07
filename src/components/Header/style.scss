@@ -1,20 +1,30 @@
 @import "../../utils/constants/colors";
+
 .header {
+  position: fixed;
+  width: 100%;
   padding: 0 2rem;
   justify-content: space-between;
+  height: 52px;
+
+  @media screen and (max-width: 576px) {
+    justify-content: space-around;
+  }
+
   .heading {
     text-align: center;
   }
-}
-.logo {
-  display: flex;
-  align-items: center;
-  .image-menu {
-    padding-right: 10%;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    .image-menu {
+      padding-right: 10%;
+    }
   }
 }
-@media screen and (max-width: 576px) {
-  .header {
-    justify-content: space-around;
-  }
+
+.spacer {
+  height: 52px;
 }

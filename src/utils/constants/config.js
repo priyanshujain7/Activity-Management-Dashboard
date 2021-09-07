@@ -36,6 +36,16 @@ const leftMenuData = [
     src: emp,
     label: "Deliverables ( UI Team )",
   },
+  {
+    href: "https://docs.google.com/spreadsheets/d/12jsipagv70dWVXqr1oAgT1U8E9heoFs9jdhaeBa2hBk/edit#gid=0",
+    src: emp,
+    label: "Deliverables ( Frontend Team )",
+  },
+  {
+    href: "https://docs.google.com/spreadsheets/d/1tJuz9q21AItEpa4UXkK0hT0NIkS2ZaHf-cmgTwx7GKc/edit#gid=0",
+    src: emp,
+    label: "Deliverables ( UI Team )",
+  },
 ];
 
 export default leftMenuData;

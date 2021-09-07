@@ -6,7 +6,16 @@ const Dashboard = () => {
   return (
     <>
       <Header />
-      <LeftMenu />
+
+      <div style={{ display: "flex", position: "relative" }}>
+        <LeftMenu />
+        <div
+          className="dashboard"
+          style={{ padding: "1rem", paddingLeft: "80px" }}
+        >
+          <h1>hello</h1>
+        </div>
+      </div>
     </>
   );
 };
